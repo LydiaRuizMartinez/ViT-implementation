@@ -50,7 +50,7 @@ def main() -> None:
     This function is the main program for the training.
     """
 
-    epochs: int = 25
+    epochs: int = 2
     lr: float = 3.5e-4
     batch_size: int = 128
 
