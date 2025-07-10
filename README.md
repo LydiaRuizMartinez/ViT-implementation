@@ -1,43 +1,90 @@
-# 🧠 ViT-Implementation — Vision Transformer from Scratch
+# 🧠 ViT-Implementation — Your Friendly Vision Transformer!
 
-This repository features a **from-scratch PyTorch implementation** of the **Vision Transformer (ViT)** architecture, inspired by [Dosovitskiy et al.](https://arxiv.org/abs/2010.11929). It includes all core components: patch embeddings, multi-head self-attention, transformer encoder blocks, and a custom training pipeline.
+Welcome to **ViT-Implementation**, a from-scratch PyTorch build of the **Vision Transformer (ViT)** architecture! Inspired by Dosovitskiy et al.’s [ViT paper](https://arxiv.org/abs/2010.11929), this repo walks you through how to classify images using transformers — without relying on any pretrained models.
 
-## 🚀 Getting Started
-- **Train:** `python -m src.train`
-- **Evaluate:** `python -m src.evaluate`
-- **Generate Results CSV:** `python -m src.csv_generator`
+---
 
-## 📦 Features
-- Patch Embeddings
-- GELU Activations
-- Multi-Head Self-Attention
-- Transformer Encoder Blocks with residuals & layer norm
-- Modular and easy-to-read PyTorch code
+## 🚀 Quick Start
 
-## 📋 Requirements
+### 🏋️‍♀️ 1. Train the Model
+```bash
+python -m src.train
+```
+
+### 🧠 2. Evaluate the Model
+```bash
+python -m src.evaluate
+```
+
+### 📊 3. Generate CSV with Results
+```bash
+python -m src.csv_generator
+```
+
+---
+
+## 🧩 Features
+
+- ✅ Patch Embeddings — split images into patches and process them like tokens.
+- ✅ Multi-Head Self-Attention — multiple attention heads for rich feature extraction.
+- ✅ Transformer Encoder Blocks — with residual connections and layer norm.
+- ✅ GELU Activation — smoother than ReLU.
+- ✅ Fully modular PyTorch code — clean, readable, and reusable.
+- ✅ No pretrained shortcuts — everything built from scratch!
+
+---
+
+## 📦 Requirements
+
 Install dependencies with:
 ```bash
 pip install -r requirements.txt
+```
 
 ---
-```markdown
-# 🧠 ViT-Implementation — Vision Transformer desde cero
 
-Este repositorio contiene una implementación en **PyTorch desde cero** del **Vision Transformer (ViT)**, basada en el trabajo de [Dosovitskiy et al.](https://arxiv.org/abs/2010.11929). Incluye los componentes clave: embeddings de parches, atención multi-cabeza, bloques transformadores y un pipeline de entrenamiento personalizado.
+# 🧠 ViT-Implementation — ¡Tu Transformer de Visión Amigable!
 
-## 🚀 Comenzar
-- **Entrenar:** `python -m src.train`
-- **Evaluar:** `python -m src.evaluate`
-- **Generar CSV de resultados:** `python -m src.csv_generator`
+Bienvenid@ a **ViT-Implementation**, una implementación desde cero del modelo **Vision Transformer (ViT)** en PyTorch. Inspirado en el [artículo original](https://arxiv.org/abs/2010.11929) de Dosovitskiy et al., este repositorio te guía paso a paso para clasificar imágenes usando transformadores — sin modelos preentrenados.
 
-## 📦 Funcionalidades
-- Embeddings de parches
-- Activaciones GELU
-- Atención multi-cabeza
-- Bloques Transformer con residual y normalización
-- Código modular y fácil de entender
+---
 
-## 📋 Requisitos
+## 🚀 Cómo Empezar
+
+### 🏋️‍♀️ 1. Entrenar el Modelo
+```bash
+python -m src.train
+```
+
+### 🧠 2. Evaluar el Modelo
+```bash
+python -m src.evaluate
+```
+
+### 📊 3. Generar CSV con Resultados
+```bash
+python -m src.csv_generator
+```
+
+---
+
+## 🧩 Características
+
+- ✅ Patch Embeddings — divide imágenes en parches como tokens.
+- ✅ Multi-Head Self-Attention — múltiples cabezas de atención para captar más contexto.
+- ✅ Bloques de Codificador Transformer — con conexiones residuales y normalización.
+- ✅ Activación GELU — más suave que ReLU.
+- ✅ Código PyTorch modular — claro, legible y reutilizable.
+- ✅ Todo construido desde cero — sin atajos preentrenados.
+
+---
+
+## 📦 Requisitos
+
 Instala las dependencias con:
 ```bash
 pip install -r requirements.txt
+```
+
+---
+
