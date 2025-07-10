@@ -19,6 +19,8 @@ Install dependencies with:
 ```bash
 pip install -r requirements.txt
 
+---
+```markdown
 # 🧠 ViT-Implementation — Vision Transformer desde cero
 
 Este repositorio contiene una implementación en **PyTorch desde cero** del **Vision Transformer (ViT)**, basada en el trabajo de [Dosovitskiy et al.](https://arxiv.org/abs/2010.11929). Incluye los componentes clave: embeddings de parches, atención multi-cabeza, bloques transformadores y un pipeline de entrenamiento personalizado.
