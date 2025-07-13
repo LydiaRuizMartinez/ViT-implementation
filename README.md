@@ -1,4 +1,4 @@
-# 🧠 ViT-Implementation — Your Friendly Vision Transformer!
+# 🧠 ViT-Implementation!
 
 Welcome to **ViT-Implementation**, a from-scratch PyTorch build of the **Vision Transformer (ViT)** architecture! Inspired by Dosovitskiy et al.’s [ViT paper](https://arxiv.org/abs/2010.11929), this repo walks you through how to classify images using transformers — without relying on any pretrained models.
 
