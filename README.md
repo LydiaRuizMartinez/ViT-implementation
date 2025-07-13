@@ -43,7 +43,7 @@ pip install -r requirements.txt
 
 ---
 
-# 🧠 ViT-Implementation — ¡Tu Transformer de Visión Amigable!
+# 🧠 ¡ViT-Implementation!
 
 Bienvenid@ a **ViT-Implementation**, una implementación desde cero del modelo **Vision Transformer (ViT)** en PyTorch. Inspirado en el [artículo original](https://arxiv.org/abs/2010.11929) de Dosovitskiy et al., este repositorio te guía paso a paso para clasificar imágenes usando transformadores — sin modelos preentrenados.
 
